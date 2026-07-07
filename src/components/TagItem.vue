@@ -26,9 +26,9 @@ import {
     faClipboard,
     faThumbsDown,
     faThumbsUp,
-    faLink,
-    faImageSlash,
-} from '@fortawesome/pro-light-svg-icons'
+    faImage as faImageSlash,
+} from '@fortawesome/free-regular-svg-icons'
+import { faLink } from '@fortawesome/free-solid-svg-icons'
 import TagPostCount from './TagPostCount.vue'
 import type { Tag } from '../types/data'
 import { useCartStore } from '../stores/cart'
