@@ -18,7 +18,7 @@
   ----------------------------------------------------------------------------->
 
 <script lang="ts" setup>
-import { computed, toRefs } from 'vue'
+import { computed } from 'vue'
 import { ElButton, ElCard, ElTooltip, ElImage } from 'element-plus'
 import { useClipboard } from '@vueuse/core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
